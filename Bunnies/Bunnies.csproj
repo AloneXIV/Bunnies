@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="Dalamud.Plugin.Bootstrap.targets" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<!-- This sets the target framework to .NET 8 -->
+		<Version>0.0.0.1</Version>
+		<Description>A sample plugin.</Description>
+		<PackageProjectUrl>https://github.com/AloneXIV/Bunnies</PackageProjectUrl>
+		<PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+		<IsPackable>false</IsPackable>
+		<Platforms>AnyCPU;x86;x64</Platforms>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DalamudPackager" Version="11.0.0" />
+		<PackageReference Include="Serilog" Version="4.2.0-dev-02328" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Bunnies.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>

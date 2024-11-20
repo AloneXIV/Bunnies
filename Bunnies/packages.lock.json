@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net8.0": {
+      "DalamudPackager": {
+        "type": "Direct",
+        "requested": "[11.0.0, )",
+        "resolved": "11.0.0",
+        "contentHash": "bjT7XUlhIJSmsE/O76b7weUX+evvGQctbQB8aKXt94o+oPWxHpCepxAGMs7Thow3AzCyqWs7cOpp9/2wcgRRQA=="
+      },
+      "Serilog": {
+        "type": "Direct",
+        "requested": "[4.2.0-dev-02328, )",
+        "resolved": "4.2.0-dev-02328",
+        "contentHash": "Mur7I61Dt82hRdTPR4ykaU9rVuG5wCIKCfCi+UtVTaubUb69fFp1q4iA3bUOFk6RI2ae+72yt+6HHarh6XZ2Pw=="
+      }
+    }
+  }
+}

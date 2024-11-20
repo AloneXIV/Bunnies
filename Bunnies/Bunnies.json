@@ -1,0 +1,12 @@
+{
+  "Author": "Joshua",
+  "Name": "Bunnies",
+  "Punchline": "BUNNIES",
+  "Description": "A plugin that automates bunnies",
+  "InternalName": "Bunnies",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 11,
+  "Tags": [ "Eureka" ],
+  "IconUrl": "https://github.com/AloneXIV/Bunnies/raw/master/Images/bunny.jpg",
+  "RepoUrl": "https://github.com/AloneXIV/Bunnies"
+}
