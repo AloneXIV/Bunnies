@@ -7,6 +7,6 @@
   "ApplicableVersion": "any",
   "DalamudApiLevel": 11,
   "Tags": [ "Eureka" ],
-  "IconUrl": "https://github.com/AloneXIV/Bunnies/raw/master/Images/bunny.jpg",
+  "IconUrl": "https://raw.githubusercontent.com/AloneXIV/Bunnies/master/Images/Bunny.jpg",
   "RepoUrl": "https://github.com/AloneXIV/Bunnies"
 }
