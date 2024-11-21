@@ -5,7 +5,7 @@
 	<PropertyGroup>
 		<TargetFramework>net8.0-windows</TargetFramework>
 		<!-- This sets the target framework to .NET 8 -->
-		<Version>0.0.0.1</Version>
+		<Version>1.0.0.4</Version>
 		<Description>A sample plugin.</Description>
 		<PackageProjectUrl>https://github.com/AloneXIV/Bunnies</PackageProjectUrl>
 		<PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
@@ -14,10 +14,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Content Include="..\Images\Bunny.jpg">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Visible>false</Visible>
+		</Content>
 		<PackageReference Include="Serilog" Version="4.2.0-dev-02328" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<None Update="Bunnies.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
