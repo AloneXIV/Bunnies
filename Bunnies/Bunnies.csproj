@@ -3,7 +3,7 @@
 	<Import Project="Dalamud.Plugin.Bootstrap.targets" />
 
 	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFramework>net8.0-windows</TargetFramework>
 		<!-- This sets the target framework to .NET 8 -->
 		<Version>0.0.0.1</Version>
 		<Description>A sample plugin.</Description>
@@ -14,7 +14,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="DalamudPackager" Version="11.0.0" />
 		<PackageReference Include="Serilog" Version="4.2.0-dev-02328" />
 	</ItemGroup>
 
